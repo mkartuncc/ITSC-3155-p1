@@ -1,0 +1,20 @@
+﻿body {
+    font-family: Tahoma;
+    font-size: 100px;
+    height: 100vh; 
+    /*add background gradient from light blue to purple*/
+    background-image: linear-gradient(#B8E2F2, purple);
+}
+
+/*add shadows on text for all 3 items*/
+.ItemA {
+    text-shadow: 5px 5px red;
+}
+
+.ItemB {
+    text-shadow: 5px 5px orange;
+}
+
+.ItemC {
+    text-shadow: 5px 5px yellow;
+}
