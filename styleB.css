@@ -1,46 +1,87 @@
-body {
+﻿body {
     font-family: Tahoma;
     font-size: 40px;
     height: 100vh;
-    
 }
 
 .container {
     display: flex;
     flex-direction: row;
-    
-    align-items:baseline;
+    align-items: baseline;
     height: 100%;
     width: 100%;
 }
 
 .ItemA {
-    height: 150px;
-    width: 100px;
+    height: 140px;
+    width: 90px;
     background-color: #eeeff2;
     border-left: 10px dotted #D0D0FF;
     display: flex;
     justify-content: flex-start;
     margin-right: 10px;
+    cursor: pointer; 
+    padding: 10px; 
+    
 }
 
 .ItemB {
-    height: 150px;
-    width: 100px;
+    height: 140px;
+    width: 90px;
     background-color: #eeeff2;
     display: flex;
     border-left: 10px dotted #D0D0FF;
     justify-content: flex-start;
     margin-right: 10px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.ItemC {
+    height: 140px;
+    width: 90px;
+    background-color: #eeeff2;
+    border-left: 10px dotted #D0D0FF;
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 10px;
+    padding: 10px;
+}
+.ItemA:hover, .ItemB:hover, .ItemC:hover{
+    background-color: yellow; 
+    color: goldenrod; 
+    
+
+       }
+}/*body {
+    font-family: Tahoma;
+    font-size: 40px;
+    
+}
+
+.container {
+    display: grid;
+    grid-column-gap: 10px;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px;
+}
+.ItemA, .ItemB {
+    height: 150px;
+    width: 100px;
+    background-color: #eeeff2;
+    border-left: dotted 10px #D0D0FF;
+    align-self: center; 
+
 }
 
 .ItemC {
     height: 150px;
     width: 100px;
     background-color: #eeeff2;
-    border-left: 10px dotted #D0D0FF;
-    display: flex;
-    align-items:start;
-    justify-content:flex-start;
-    margin-right: 10px;
-}
+    border-left: dotted 10px #D0D0FF;
+    position: 
+} */
